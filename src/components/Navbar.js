@@ -1,23 +1,28 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/Navbar.css';
+import bitcoinnn from '../img/bitcoin.png';
+import casa from '../img/casa.png';
+import carro from '../img/carro.png';
 
 const NavBar = () => (
-  <header className="header">
-    <h1 className="logo">Crypto Currencies</h1>
-    <div>
-      <ul className="ul-nav">
-        <li className="link-item">
-          <NavLink to="/">
-            Home
-          </NavLink>
-        </li>
-        <li className="link-item">
-          <NavLink to="/details">
-            Details
-          </NavLink>
-        </li>
-      </ul>
+  <div className="nav-container">
+    <div className="sub-container">
+      <div className="container-bitcoin">
+        <img className="bitcoin" src={bitcoinnn} alt="img-bitcoin" />
+      </div>
+      <div className="container-link">
+        <NavLink to="/" className="title">
+          Crypto Currencies
+        </NavLink>
+      </div>
+      <div className="container-casa">
+        <img className="casa" src={carro} alt="img-casa" />
+      </div>
+      <div className="container-carro">
+        <img className="casa" src={casa} alt="img-casa" />
+      </div>
     </div>
-  </header>
+  </div>
 );
 export default NavBar;
