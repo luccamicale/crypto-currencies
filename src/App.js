@@ -3,19 +3,19 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Home from './pages/home';
-import Details from './components/detailsComp';
+import NavBar from './components/Navbar';
+import Details from './pages/details';
 
 function App() {
   return (
     <div className="App">
       <div className="header">
-        <Navbar />
+        <NavBar />
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/details" element={<Details />} />
+        <Route path="/Details" element={<Details />} />
       </Routes>
     </div>
   );

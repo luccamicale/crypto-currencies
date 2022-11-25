@@ -1,7 +1,11 @@
-const Home = () => {
+import React from 'react';
+
+const Home = () => (
   <div className="home-container">
-    Home
-  </div>;
-};
+    <button type="button">
+      chau
+    </button>
+  </div>
+);
 
 export default Home;
