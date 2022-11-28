@@ -16,7 +16,7 @@ const NavBar = () => (
           Crypto Currencies
         </NavLink>
         <NavLink to="/Details" className="title-detalis">
-          Crypto Currencies
+          -
         </NavLink>
       </div>
       <div className="container-casa">

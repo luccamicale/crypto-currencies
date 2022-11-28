@@ -19,7 +19,11 @@ const Details = () => {
             {' '}
             {params.id}
           </h2>
-          <h3> hh{crypto.name}</h3>
+          <h3>
+            {' '}
+            hh
+            {crypto.rank}
+          </h3>
         </div>
       )
         : ('no hay cryptos')}
