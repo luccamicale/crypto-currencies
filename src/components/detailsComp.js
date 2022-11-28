@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { CharacterOne } from '../redux/features/coinSlice';
 
 const Details = () => {
@@ -14,6 +14,9 @@ const Details = () => {
     <>
       {crypto !== null ? (
         <div className="home-container">
+          <Link className='back-button' to="/">
+            BACK
+          </Link>
           <h2>
             Crypto
             {' '}
