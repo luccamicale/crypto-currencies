@@ -14,22 +14,56 @@ const Details = () => {
     <>
       {crypto !== null ? (
         <div className="home-container">
-          <Link className='back-button' to="/">
+          <Link className="back-button" to="/">
             BACK
           </Link>
-          <h2>
-            Crypto
-            {' '}
-            {params.id}
-          </h2>
-          <img src={crypto.coin.icon} alt="Img" />
-          <h3>
-            {crypto.coin.symbol}
-          </h3>
-          <p>{crypto.coin.price}</p>
-          <p>{crypto.coin.rank}</p>
-          <p>{crypto.coin.totalSupply}</p>
-          <p>{crypto.coin.websiteUrl}</p>
+          <table className="table table-striped bordered hover" size="sm">
+            <thead>
+              <th>
+                <tr>
+                  Crypto
+                  {' '}
+                  {params.id}
+                </tr>
+                <img src={crypto.coin.icon} alt="Img" />
+                <tr>
+                  {crypto.coin.symbol}
+                </tr>
+                <tr>
+                  Price :
+                  {crypto.coin.price}
+                </tr>
+                <tr>
+                  Rank :
+                  {crypto.coin.rank}
+                </tr>
+                <tr>
+                  Total Supply :
+                  {crypto.coin.totalSupply}
+                </tr>
+                <tr>
+                  WebSite URL :
+                  {crypto.coin.websiteUrl}
+                </tr>
+                <tr>
+                  MarketCap :
+                  {crypto.coin.marketCap}
+                </tr>
+                <tr>
+                  Available Supply :
+                  {crypto.coin.availableSupply}
+                </tr>
+                <tr>
+                  Price Change 1h :
+                  {crypto.coin.priceChange1h}
+                </tr>
+                <tr>
+                  Price Change 1w :
+                  {crypto.coin.priceChange1w}
+                </tr>
+              </th>
+            </thead>
+          </table>
         </div>
       )
         : ('no hay cryptos')}
