@@ -15,6 +15,9 @@ const NavBar = () => (
         <NavLink to="/" className="title">
           Crypto Currencies
         </NavLink>
+        <NavLink to="/Details" className="title-detalis">
+          Crypto Currencies
+        </NavLink>
       </div>
       <div className="container-casa">
         <img className="casa" src={carro} alt="img-casa" />

@@ -3,9 +3,9 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
-import Home from './pages/home';
+import Home from './components/homeComp';
 import NavBar from './components/Navbar';
-import Details from './pages/details';
+import Details from './components/detailsComp';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Details" element={<Details />} />
+        <Route path="/Details/:id" element={<Details />} />
       </Routes>
     </div>
   );
