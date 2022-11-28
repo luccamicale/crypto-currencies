@@ -19,11 +19,14 @@ const Details = () => {
             {' '}
             {params.id}
           </h2>
+          <img src={crypto.coin.icon} alt="Img" />
           <h3>
-            {' '}
-            hh
-            {crypto.rank}
+            {crypto.coin.symbol}
           </h3>
+          <p>{crypto.coin.price}</p>
+          <p>{crypto.coin.rank}</p>
+          <p>{crypto.coin.totalSupply}</p>
+          <p>{crypto.coin.websiteUrl}</p>
         </div>
       )
         : ('no hay cryptos')}
