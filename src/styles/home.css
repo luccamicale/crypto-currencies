@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .image-crypto {
@@ -24,4 +24,9 @@
   color: whitesmoke;
   font-size: 15px;
   font-family: 'Lato', sans-serif;
+}
+
+.container-search {
+  margin-top: 150px;
+  margin-left: 150px;
 }
