@@ -40,3 +40,29 @@
   margin-left: 6%;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .carro {
+    margin-left: -520%;
+  }
+
+  .casa {
+    margin-left: -500%;
+  }
+
+  .body-container {
+    margin-left: -53%;
+  }
+
+  .container-two {
+    display: none;
+  }
+
+  .container-three {
+    margin-left: -1%;
+  }
+}

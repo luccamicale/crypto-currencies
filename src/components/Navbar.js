@@ -13,14 +13,14 @@ const NavBar = () => (
       </div>
       <div className="container-link">
         <NavLink to="/" className="title">
-          Crypto Currencies
+          Crypto
         </NavLink>
-        <NavLink to="/Details" className="title-detalis">
+        {/* <NavLink to="/Details" className="title-detalis">
           -
-        </NavLink>
+        </NavLink> */}
       </div>
       <div className="container-casa">
-        <img className="casa" src={carro} alt="img-casa" />
+        <img className="carro" src={carro} alt="img-casa" />
       </div>
       <div className="container-carro">
         <img className="casa" src={casa} alt="img-casa" />
