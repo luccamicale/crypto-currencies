@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Coins from '../redux/features/coinSlice';
+import '../styles/home.css';
 
 const Home = () => {
   const [characters, setCharacters] = useState(null);
@@ -10,15 +11,18 @@ const Home = () => {
 
   return (
     <>
-      {characters ? (
-        characters.map((character) => (
-          <div key={character.id}>
-            <img src={character.icon} alt="icon" />
-            <a href={`/Details/${character.id}`}>{character.name}</a>
-          </div>
-        ))
-      )
-        : ('no hay personajes')}
+      <div className="container">
+        {characters ? (
+          characters.map((character) => (
+            <div className="character" key={character.id}>
+              <img className="image-crypto" src={character.icon} alt="icon" />
+              <a className="character-name" href={`/Details/${character.id}`}>{character.name}</a>
+            </div>
+          ))
+        )
+          : ('Loading...')}
+      </div>
+
     </>
   );
 };

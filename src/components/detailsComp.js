@@ -76,7 +76,7 @@ const Details = () => {
           </div>
         </div>
       )
-        : ('no hay cryptos')}
+        : ('Loading...')}
     </>
   );
 };
