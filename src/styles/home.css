@@ -55,6 +55,14 @@
   .input-search {
     width: 220px;
     height: 30px;
-    margin-left: -25px;
+    margin-left: -75px;
+  }
+
+  .character {
+    width: 195px;
+  }
+
+  .btn {
+    margin-left: 7px;
   }
 }
