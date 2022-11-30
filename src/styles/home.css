@@ -30,3 +30,12 @@
   margin-top: 150px;
   margin-left: 150px;
 }
+
+.input-search {
+  border-radius: 8px;
+  width: 580px;
+  height: 40px;
+  /* background-color: rgb(101, 101, 255); */
+  background-image: url('../img/imagee.jpg');
+  color: whitesmoke;
+}
