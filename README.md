@@ -62,7 +62,7 @@
 
 > coming soon
 
-- [Live Demo Link]()
+- [Live Demo Link](https://adorable-narwhal-b86f01.netlify.app/)
 
 <!-- GETTING STARTED -->
 
