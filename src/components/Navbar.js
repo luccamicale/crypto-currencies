@@ -7,6 +7,7 @@ import carro from '../img/carro.png';
 
 const NavBar = () => (
   <div className="nav-container">
+
     <div className="sub-container">
       <div className="container-bitcoin">
         <img className="bitcoin" src={bitcoinnn} alt="img-bitcoin" />

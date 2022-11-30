@@ -5,7 +5,7 @@
 }
 
 .image-crypto {
-  width: 40px;
+  width: 60px;
 }
 
 .character {
@@ -22,7 +22,7 @@
 .character-name {
   text-decoration: none;
   color: whitesmoke;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -32,10 +32,19 @@
 }
 
 .input-search {
-  border-radius: 8px;
+  border-radius: 12px;
   width: 580px;
   height: 40px;
+
   /* background-color: rgb(101, 101, 255); */
-  background-image: url('../img/imagee.jpg');
+  background-image: url(../img/imageback.webp);
   color: whitesmoke;
+}
+
+@media screen and (max-width: 768px) {
+  .input-search {
+    width: 220px;
+    height: 30px;
+    margin-left: -25px;
+  }
 }

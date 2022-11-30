@@ -1,7 +1,8 @@
 .nav-container {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   height: 70px;
   border: 1px solid rgb(194, 184, 184);
+  background-image: url(../img/imageback.webp);
 }
 
 .sub-container {
@@ -34,6 +35,8 @@
 .title {
   text-decoration: none;
   font-size: 35px;
+  color: whitesmoke;
+  font-family: 'Lato', sans-serif;
 }
 
 .container-carro {
