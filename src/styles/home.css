@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.image-crypto {
+  width: 60px;
+}
+
+.character {
+  border: 1px solid black;
+
+  /* box-shadow: 5px 2px 5px 2px greenyellow; */
+  width: 264px;
+  height: 120px;
+  background-image: url('../img/imagee.jpg');
+  background-size: 250px;
+  backface-visibility: visible;
+}
+
+.character-name {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-search {
+  margin-top: 110px;
+  margin-left: 150px;
+}
+
+.input-search {
+  border-radius: 12px;
+  width: 580px;
+  height: 40px;
+
+  /* background-color: rgb(101, 101, 255); */
+  background-image: url(../img/imageback.webp);
+  color: whitesmoke;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(94, 94, 255);
+  color: whitesmoke;
+  width: 75px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .input-search {
+    width: 220px;
+    height: 30px;
+    margin-left: -25px;
+  }
+}

@@ -1,0 +1,71 @@
+.nav-container {
+  /* background-color: whitesmoke; */
+  height: 70px;
+  border: 1px solid rgb(194, 184, 184);
+  background-image: url(../img/imageback.webp);
+}
+
+.sub-container {
+  display: flex;
+  padding-top: 21px;
+}
+
+.container-casa {
+  margin-left: 58%;
+  margin-top: 10px;
+}
+
+.container-link {
+  margin-left: 50px;
+
+  /* background-color: brown; */
+}
+
+.bitcoin {
+  width: 50px;
+}
+
+.container-bitcoin {
+  margin-left: 10px;
+  margin-top: -9px;
+
+  /* background-color: aquamarine; */
+}
+
+.title {
+  text-decoration: none;
+  font-size: 35px;
+  color: whitesmoke;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-carro {
+  margin-left: 6%;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .carro {
+    margin-left: -520%;
+  }
+
+  .casa {
+    margin-left: -500%;
+  }
+
+  .body-container {
+    margin-left: -53%;
+  }
+
+  .container-two {
+    display: none;
+  }
+
+  .container-three {
+    margin-left: -1%;
+  }
+}
