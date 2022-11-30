@@ -60,9 +60,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> coming soon
 
 - [Live Demo Link](https://adorable-narwhal-b86f01.netlify.app/)
+
+## 🚀 Video
+
+- [Video](https://www.loom.com/share/2604f87bfdca432f97bbb963a1f95574)
+
 
 <!-- GETTING STARTED -->
 
