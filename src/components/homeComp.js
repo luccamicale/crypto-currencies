@@ -28,7 +28,7 @@ const Home = () => {
 
   return (
     <>
-      <div>
+      <div className="main-container">
         <div className="container-search">
           <input
             placeholder="Search"
@@ -36,7 +36,7 @@ const Home = () => {
             value={search}
             className="input-search"
           />
-          <button type="button" className="button-input">
+          <button className="btn" type="button">
             Search
           </button>
         </div>

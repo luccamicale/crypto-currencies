@@ -12,7 +12,7 @@
   border: 1px solid black;
 
   /* box-shadow: 5px 2px 5px 2px greenyellow; */
-  width: 220px;
+  width: 264px;
   height: 120px;
   background-image: url('../img/imagee.jpg');
   background-size: 250px;
@@ -27,7 +27,7 @@
 }
 
 .container-search {
-  margin-top: 150px;
+  margin-top: 110px;
   margin-left: 150px;
 }
 
@@ -39,6 +39,16 @@
   /* background-color: rgb(101, 101, 255); */
   background-image: url(../img/imageback.webp);
   color: whitesmoke;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(94, 94, 255);
+  color: whitesmoke;
+  width: 75px;
+  height: 25px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
