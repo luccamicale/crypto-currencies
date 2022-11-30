@@ -3,24 +3,12 @@ import Coins from '../redux/features/coinSlice';
 import '../styles/home.css';
 
 const Home = () => {
-  const [characters, setCharacters] = useState(null);
+  const [characters, setCharacters] = useState([]);
   const [search, setSearch] = useState('');
 
-  const filtrar = (terminoBusqueda) => {
-    const resultSearch = characters.filter((character) => {
-      if (character.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())
-      || character.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())
-      ) {
-        return character;
-      }
-    });
-    setCharacters(resultSearch);
-  };
-
-  const handleClick = (e) => {
-    setSearch(e.target.value);
-    filtrar(e.target.value);
-  };
+  const handleSearch = () => characters.filter((character) => (
+    character.name.toString().toLowerCase().includes(search)
+  ));
 
   useEffect(() => {
     Coins(setCharacters);
@@ -32,7 +20,7 @@ const Home = () => {
         <div className="container-search">
           <input
             placeholder="Search"
-            onChange={handleClick}
+            onChange={(e) => setSearch(e.target.value)}
             value={search}
             className="input-search"
           />
@@ -42,7 +30,7 @@ const Home = () => {
         </div>
         <div className="container">
           {characters ? (
-            characters.map((character) => (
+            handleSearch().map((character) => (
               <div className="character" key={character.id}>
                 <img className="image-crypto" src={character.icon} alt="icon" />
                 <a className="character-name" href={`/Details/${character.id}`}>{character.name}</a>
