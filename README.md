@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img src="./assest/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Available Scripts
+  <h3><b>Microverse README Template</b></h3>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-### `npm test`
+<!-- PROJECT DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 [Cryto App] <a name="about-project"></a>
 
-### `npm run build`
+> - In this App We will be working with the real live data from the Crypto Currencies. I build a web application for a company that provides prices and information about Crypto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- Redux
+- API
+- CSS
+- HTML/Javascript best practices
+- Linters
+- Webpack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Features -->
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Displaying list of Home Page
+- Displaying list of Details Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- LIVE DEMO -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
+> coming soon
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Live Demo Link]()
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
 
-### Code Splitting
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To get a local copy up and running, follow these steps.
 
-### Analyzing the Bundle Size
+```
+- git clone https://github.com/luccamicale/crypto-currencies
+- npm i
+- npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Making a Progressive Web App
+<!-- AUTHORS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👥 Authors <a name="authors"></a>
 
-### Advanced Configuration
+👤 **Lucca Micale**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@luccamicale](https://github.com/luccamicale)
+- Twitter: [@luccamicale_](https://twitter.com/LuccaMicale_)
+- LinkedIn: [luccamicale](https://www.linkedin.com/in/lucca-micale-907908233/)
 
-### Deployment
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing <a name="contributing"></a>
 
-### `npm run build` fails to minify
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the [issues page](../../issues/).
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+- Give a ⭐️ if you like this project!
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I'm immensely grateful to all the people whose code I used.
+
+<!-- FAQ (optional) -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
