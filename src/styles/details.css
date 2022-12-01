@@ -1,0 +1,45 @@
+.home-container {
+  background-color: rgb(53, 53, 255);
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.back-button {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.body-container {
+  text-align: center;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-one {
+  margin-left: 250px;
+}
+
+.container-two {
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-right: 45px;
+}
+
+.container-three {
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.country {
+  width: 1330px;
+  height: 300px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .country {
+    width: 405px;
+  }
+}
