@@ -16,9 +16,6 @@ const NavBar = () => (
         <NavLink to="/" className="title">
           Crypto
         </NavLink>
-        {/* <NavLink to="/Details" className="title-detalis">
-          -
-        </NavLink> */}
       </div>
       <div className="container-casa">
         <img className="carro" src={carro} alt="img-casa" />
