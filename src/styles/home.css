@@ -53,13 +53,13 @@
 
 @media screen and (max-width: 768px) {
   .input-search {
-    width: 220px;
+    width: 170px;
     height: 30px;
-    margin-left: -75px;
+    margin-left: -90px;
   }
 
   .character {
-    width: 195px;
+    width: 177px;
   }
 
   .btn {

@@ -109,7 +109,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- I'm immensely grateful to all the people whose code I used.
+- I am immensely grateful to ## Nelson Sakwa ## whose code I used.
 
 <!-- FAQ (optional) -->
 
