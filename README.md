@@ -1,13 +1,12 @@
 <div align="center">
 
-  <img src="../img/bitcoinnn.png" alt="logo" width="140"  height="auto" />
+  <img src="../img/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Microverse README Template...</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -60,9 +59,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> coming soon
 
 - [Live Demo Link](https://adorable-narwhal-b86f01.netlify.app/)
+
+## 🚀 Video
+
+- [Video](https://www.loom.com/share/2604f87bfdca432f97bbb963a1f95574)
+
 
 <!-- GETTING STARTED -->
 
@@ -112,6 +115,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
