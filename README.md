@@ -60,7 +60,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://adorable-narwhal-b86f01.netlify.app/)
+- [Live Demo Link](https://crypto-currencies-puce.vercel.app/)
 
 ## 🚀 Video
 
