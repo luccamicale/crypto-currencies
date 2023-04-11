@@ -1,3 +1,7 @@
+.App {
+  background-color: cornflowerblue;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -60,9 +64,34 @@
 
   .character {
     width: 177px;
+    border-radius: 20px;
   }
 
   .btn {
     margin-left: 7px;
+  }
+}
+
+@media (min-width: 728px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 35px;
+    border: 2px solid #dcdcdc;
+    margin: 25px;
+    background-color: #aeb8ff;
+    border-radius: 30px;
+  }
+  
+  .character {
+    border: 1px solid black;
+    box-shadow: 5px 2px 5px 2px #c927ff;
+    width: 277px;
+    height: 120px;
+    background-image: url('../img/imagee.jpg');
+    background-size: 250px;
+    backface-visibility: visible;
+    text-align: center;
   }
 }
